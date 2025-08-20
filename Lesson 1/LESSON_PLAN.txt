@@ -1,0 +1,84 @@
+LESSON 1: Call AI API and Print Response
+==========================================
+
+LEARNING GOAL:
+--------------
+Understand the fundamental interaction: send text → get text back
+No magic, just API calls.
+
+WHAT WE'LL BUILD:
+-----------------
+A dead-simple program that:
+1. Sends a message to an AI (OpenAI or Claude)
+2. Gets response back
+3. Prints it
+That's it. Nothing fancy.
+
+EXERCISES:
+----------
+Exercise 1: Hardcoded Message
+- Send "What is 2+2?" to AI
+- Print exactly what comes back
+- SEE the actual JSON response structure
+
+Exercise 2: User Input
+- Let user type a question
+- Send it to AI
+- Print response
+- Understand the request/response cycle
+
+Exercise 3: Show Everything
+- Display what we're sending (the full API request)
+- Display what we get back (the full API response)
+- See the "man behind the curtain"
+
+Exercise 4: Error Handling
+- What happens with no API key?
+- What happens with bad API key?
+- What happens when API is down?
+- Learn to handle failures gracefully
+
+WHAT YOU'LL LEARN:
+-------------------
+✓ APIs are just web requests - no mystery
+✓ You send JSON, you get JSON back
+✓ The AI model is just a parameter you send
+✓ System prompts are just another message
+✓ API keys are just passwords in headers
+✓ Everything is visible and debuggable
+
+SUCCESS CRITERIA:
+-----------------
+By end of Lesson 1, you should be able to:
+1. Explain what happens when you call an AI API
+2. Debug why an API call failed
+3. See exactly what data is being sent/received
+4. Feel confident that there's no "magic" happening
+
+KEY INSIGHTS TO REINFORCE:
+--------------------------
+- The AI has NO memory of previous calls
+- Each API call is completely independent
+- You're just sending text and getting text back
+- Tokens = roughly word count (cost meter)
+- The API doesn't know who you are beyond your API key
+
+COMMON CONFUSIONS WE'LL CLEAR UP:
+----------------------------------
+- "How does the AI remember?" → It doesn't, you resend everything
+- "What's a system prompt?" → Just instructions at the start
+- "What's a model?" → Which AI brain to use (gpt-4, claude-3, etc)
+- "What are tokens?" → How they charge you (like word count)
+
+INTENTIONALLY SKIPPING:
+-----------------------
+- Conversation history (Lesson 2)
+- Tools/Functions (Lesson 3)  
+- Complex prompts (Later)
+- UI/Web interface (Much later)
+- Deployment (Not relevant yet)
+
+REMEMBER:
+---------
+This lesson is ONLY about understanding the basic API call.
+If we find ourselves doing ANYTHING else, we've gone off track.

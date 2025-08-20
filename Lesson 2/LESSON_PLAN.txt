@@ -1,0 +1,86 @@
+LESSON 2: Add Memory (Conversation History)
+============================================
+
+WHY THIS IS THE RIGHT NEXT STEP:
+---------------------------------
+In Lesson 1, you learned: Send text → Get text back
+But the AI forgets everything immediately!
+
+This is THE fundamental problem that makes AI feel dumb.
+Once we fix this, it starts feeling like a real assistant.
+
+THE CORE PROBLEM WE'RE SOLVING:
+--------------------------------
+User: "My name is Bob"
+AI: "Nice to meet you, Bob!"
+User: "What's my name?"
+AI: "I don't know your name" ← FRUSTRATING!
+
+THE SOLUTION:
+-------------
+Send the ENTIRE conversation every time:
+
+First call:  [User: "My name is Bob"]
+Second call: [User: "My name is Bob", 
+              AI: "Nice to meet you, Bob!",
+              User: "What's my name?"]
+
+Now the AI can see it already knows your name!
+
+WHAT WE'LL BUILD:
+-----------------
+Exercise 1: See the Problem
+- Chat without memory (AI forgets everything)
+- Visualize what's being sent each time
+
+Exercise 2: Add Basic Memory
+- Store conversation in a list
+- Send entire history with each request
+- See memory working!
+
+Exercise 3: Understand the Cost
+- Each message makes the next one more expensive
+- Learn about context limits
+- See why agents need memory management
+
+Exercise 4: Smart Memory Management
+- Summarization strategies
+- Keeping only recent messages
+- Balancing memory vs cost
+
+WHAT YOU'LL LEARN:
+-------------------
+✓ Why AI seems "dumb" (no built-in memory)
+✓ How conversation history works
+✓ Why costs increase over time
+✓ The "context window" limit
+✓ Memory management strategies
+
+KEY INSIGHTS TO GRASP:
+----------------------
+1. YOU manage memory, not the AI
+2. Every message includes ALL previous messages
+3. This is why long conversations get expensive
+4. This is why agents need state management
+5. This is the foundation of "context"
+
+SUCCESS CRITERIA:
+-----------------
+By end of Lesson 2, you should:
+1. Have a chatbot that remembers the conversation
+2. Understand WHY it remembers (you're sending history)
+3. See the token/cost implications
+4. Know how to manage memory size
+
+THIS LEADS DIRECTLY TO:
+------------------------
+Lesson 3: Tools (the AI can now remember what tools it used)
+Lesson 4: Loop detection (needs memory to know what was tried)
+Lesson 5: Multiple tools (needs memory of tool sequence)
+
+INTENTIONALLY NOT COVERING YET:
+--------------------------------
+- Tools/Functions (Lesson 3)
+- Loop prevention (Lesson 4)
+- External state (Lesson 6)
+- Complex memory strategies (Advanced)
