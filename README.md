@@ -66,6 +66,31 @@ python with_memory.py  # Now it remembers!
 
 ## 📋 Full Learning Path
 
+```mermaid
+flowchart LR
+    subgraph Done["✅ Complete"]
+        L1[API Basics]
+        L2[Memory]
+    end
+    
+    subgraph Next["🔨 Building"]
+        L3[Tools]
+    end
+    
+    subgraph Future["📍 Planned"]
+        L4[Loop Detection]
+        L5[Orchestration]
+        L6[State]
+        L7[UI]
+    end
+    
+    L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7
+    
+    style Done fill:#064e3b,stroke:#10b981,color:#fff
+    style Next fill:#713f12,stroke:#fbbf24,color:#fff
+    style Future fill:#1e1b4b,stroke:#818cf8,color:#fff
+```
+
 - **Lesson 1:** API Basics ✅
 - **Lesson 2:** Memory Systems ✅  
 - **Lesson 3:** Tool Integration (In Progress)
