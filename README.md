@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="/.github/social-preview.png" alt="ai-assistant-grows" width="800" />
+  <p><strong>A structured learning journey to build AI agents from scratch, with hands-on lessons and working code examples.</strong></p>
+</div>
+
 # 🤖 AI Assistant That Grows - Learning Journey
 
 **Learn to build AI agents from scratch through hands-on lessons with working code.** This structured curriculum takes you from basic API calls to sophisticated agents with memory, tools, and state management - no confusion, no getting stuck in loops, just clear progression with real examples you can run immediately.
